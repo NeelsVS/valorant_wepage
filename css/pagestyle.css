@@ -97,3 +97,41 @@ img {
     width: 400px;
 }
 /*End of header code*/
+
+/*Start of map code*/
+h1 {
+    display: block;
+    margin: 5px 600px;
+    padding: 7px;
+    color: #BD3944;
+    font-weight: bolder;
+    text-align: center;
+    border: #BD3944 solid 5px;
+    border-radius: 10px;
+}
+
+.map-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    color: #111823;
+    
+}
+
+.map-box {
+    background-color: #BD3944;
+    border: #111823 solid 2px;
+    border-radius: 10px;
+}
+
+.map-box img{
+    height: auto;
+    width: 350px;
+    margin: 10px;
+   
+
+}
