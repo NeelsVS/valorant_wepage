@@ -76,13 +76,19 @@ img {
     font-size: xx-large;
     margin: 10px;
     color: #111823;
-    border: #111823 solid;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 500px;
+}
+
+.header .about h2 {
+    border-radius: 10px;
+    padding: 5px 12px;
+    border: #111823 solid;
+    margin-bottom: 10px;
 }
 
 .header .about p {
