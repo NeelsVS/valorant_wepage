@@ -18,8 +18,7 @@ body{
 
 /*Start of the navbar code*/
 nav .container {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+ 
     padding: 10px 8px;
     background-color: #FD4556;
     display: flex;
@@ -143,8 +142,8 @@ h1 {
 /*End of map code*/
 
 /*Start of quote code*/
-.quote-container {
-    margin: 10px;
+#quote-container {
+    margin: 5px 10px;
     background-color: rgb(63, 63, 63);
     border-radius: 10px;
     height: 200px;
@@ -154,18 +153,58 @@ h1 {
     justify-content: center;
 }
 
-.quote-container p {
+#quote-container p {
     padding: 20px;
     width: 600px;
     color: whitesmoke;
     font-size: x-large;
 }
- .quote-container .agent-name {
+ #quote-container .agent-name {
     display: flex;
     width: 600px;
     justify-content: flex-end;
     color: #111823;
     font-size: x-large;
     font-weight: bolder;
-    
  }
+/*End of quote code*/
+
+/*Start of sign up code*/
+#sign-up-container {
+    margin: 5px 10px;
+   background-color: #BD3944;
+   border-radius:10px;
+   height: 150px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 60px;
+}   
+
+#sign-up-container .sign-up-header .date {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+
+
+#sign-up-container .sign-up {
+    font-size: larger;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: #111823 solid 3px;
+}
+/*End of sign up code*/
+
+/*Start of footer*/
+.footer {
+    height: 50px;
+   font-size: larger;
+   font-weight: 400;
+    color: #111823;
+    background-color: #FD4556;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*End of footer*/
