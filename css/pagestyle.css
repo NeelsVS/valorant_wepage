@@ -119,6 +119,7 @@ h1 {
     text-align: center;
     font-weight: bold;
     color: #111823;
+    height: 900px;
     
 }
 
@@ -128,10 +129,15 @@ h1 {
     border-radius: 10px;
 }
 
+.map-box:hover{
+    color: #BD3944;
+    background-color: #111823;
+    border: #BD3944 solid 2px;
+}
+
 .map-box img{
     height: auto;
-    width: 350px;
+    width: 260px;
     margin: 10px;
-   
-
 }
+
